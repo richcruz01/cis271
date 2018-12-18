@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang ="en">
+	<head>
+		<title> Sign Up </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/myCss.css">
+		<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+	</head>
+	<body class="signIn">
+	<main class="flexContainer">
+		<section>
+		<p id="msg" class="greet"></p>
+			<form id="myForm" action="myform.php" method="get">
+		
+			<fieldset id="signUp" class="login-box-signUp">
+				
+				<h1> Sign Up </h1><br><br><br>
+				
+				
+				<span id="error"> </span><br>
+					
+				<article class="textbox-signUp">
+					<label for="first" class="user">  </label>
+					<input type="text" id="first" name="firstName" placeholder="First Name" required> <br>
+					
+				</article>
+				<article class="textbox-signUp">
+					<label for="second" class="user"> </label>
+					<input type="text" id="second" name="lastName" placeholder="Last Name" required /> <br>
+					
+					
+				</article>
+				<article class="textbox-signUp">
+					<label for="email" class="user"></label>
+					<input type="text" id="email" name="email" placeholder="email@domain.com" required /> <br>
+					
+				</article>
+				<article class="textbox-signUp">
+					<label for="user" class="user">  </label>
+					<input type="text" id="user" name="userName" placeholder="User name" required />  <br>
+					
+				</article>
+				<article class="textbox-signUp">
+					
+					<label for="pass" class="user">  </label>
+					<input type="password" id="pass" name="passWord" placeholder="Password" required /> 
+					<article id="images">
+						<img id="icon1" src="images/view.png"> 
+						<img id="icon2" src="images/hide.png">
+					</article>
+				</article>
+				<article class="textbox-signUp">
+					<label for="pass1" class="user"> </label>
+					<input type="password" id="pass1" name="passWord" placeholder="Re-type your Password" required />    
+					
+				</article><br><br>
+				
+				<article class="checkbox-signUp">
+					<input type="checkbox" id="terms"> I agree to the </input><a href="#">terms and conditions </a><br>
+					
+				</article><br>
+				
+			<input class="signUpBttn" onclick="window.location='index.html'" value="Continue as a Guest"><br><br>
+			<input id="submit" type="submit" class="signUpBttn"  value="Sign Up"></input><br>
+			
+		</fieldset>
+	</form>
+
+						
+		</section>
+		
+		<article id="passInfo">
+						<h4>Password must meet the following requirements:</h4>
+						<ul>
+							<li id="letter" class="invalid">At least <strong>one letter</strong></li>
+							<li id="capital" class="invalid">At least <strong>one capital letter</strong></li>
+							<li id="number" class="invalid">At least <strong>one number</strong></li>
+							<li id="character" class="invalid">At least <strong>1 Special character</strong></li>
+							<li id="length" class="invalid">Be at least <strong>8 characters</strong></li>
+						</ul>
+					</article>
+<a class="logo" href="index.html"><img src="images/logo1.png"></a> 
+
+	</main>
+<script src="js/jquery-3.3.1.min.js"> </script>
+<script src="js/myJs.js"> </script>
+<script src="js/validations.js"> </script>
+	</body>
+
+</html>

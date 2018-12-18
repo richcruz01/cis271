@@ -1,0 +1,1112 @@
+*
+{
+padding: 0;
+margin: 0;
+}
+
+*, *:before, *:after{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* This is the CSS settings for the Sign In page */
+.signIn
+{
+	background-image: url('../images/design.png');
+	background-size: 100%;
+	background-position: absolute;
+	font-family: 'Aclonica';
+}
+
+#passInfo {
+    
+    width:20%;
+    background:#fefefe;
+    font-size:14px;
+    border-radius:5px;
+    float: right;
+	right:10%;
+	
+}
+#passInfo ul 
+{
+	list-style-type: none;
+}
+
+.invalid {
+    
+    padding-left:22px;
+    line-height:24px;
+    color:#ec3f41;
+}
+.valid {
+    
+    padding-left:22px;
+    line-height:24px;
+    color:#3a7d34;
+}
+
+.login-box
+{
+	opacity: 0.6;
+	width: 25%;
+	height:60%;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: blue;
+	background-color: white;
+	border-radius: 10px;
+	
+}
+
+.login-box h1
+{
+	text-align: center;
+	font-size: 34px;
+}
+
+.login-box p
+{
+	
+	font-size: 12px;
+	padding: 10px 0; 
+	color: black;
+	padding-left: 30px;
+}
+
+.login-box .forgotPass
+{
+	padding-left: 40px;
+	font-size: 12px;
+}
+
+.login-box a
+{
+	
+	font-size: 14px;
+	text-decoration: none;
+	color: blue;
+	margin: auto;
+	
+}
+
+.textbox
+{
+	width: 60%;
+	height:25px;
+	left: 50%;
+	font-size: 20px;
+	padding: 20px ;
+	margin: auto;
+	border-bottom: 3px solid #2196F3;
+	color: white;
+	
+}
+
+.textbox img
+{
+	width: 25px;
+	float: left;
+	margin: auto;
+	border-radius: 50%;
+	background-color: white;
+}
+
+.textbox input
+{
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 16px;
+	
+	width: 60%;
+	margin: auto;
+	color: black;
+	float:left;
+
+}
+ 
+ 
+ 
+ .login-box .fb
+ {
+	 width:80px;
+	 height:40px;
+	 border-radius: 5px;
+ }
+ 
+ .extraLogIn
+ {
+	 display: inline-block;
+	 padding-left: 50px;
+	 width:80%;
+	 margin: auto;
+ }
+ 
+
+.login-box-signUp
+{
+	
+	width: 35%;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: blue;
+	background-color: none;
+	border-radius: 15px;
+	box-shadow: 5px 10px #888888;
+	
+	
+}
+
+.login-box-signUp h1
+{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+}
+
+.login-box-signUp p
+{
+	
+	font-size: 14px;
+	padding: 10px 0; 
+	color: white;
+	padding-left: 30px;
+}
+
+.login-box-signUp .forgotPass
+{
+	padding-left: 40px;
+	font-size: 12px;
+}
+
+.login-box-signUp a
+{
+	
+	font-size: 14px;
+	text-decoration: none;
+	color: blue;
+	margin: auto;
+	
+}
+
+.textbox-signUp
+{
+	width:50%;
+	left: 50%;
+	font-size: 16px;
+	padding: 10px;
+	margin: auto;
+	border-bottom: 2px solid #2196F3;
+	color: red;
+	display: flex;
+
+}
+
+
+
+.checkbox-signUp
+{
+	
+	left: 25%;
+	font-size: 14px;
+	padding: 15px;
+	margin: auto;
+	color: black;
+	
+
+}
+
+span
+{
+	font-size: 14px;
+	color: red;
+}
+
+ .textbox-signUp #images
+{
+	
+	float: right;
+	display: flex;
+	margin-left: 5px;
+	border-radius: 50%;
+	background-color: none;
+	margin-top: 0;
+	justify-content:space-between;
+	
+}
+ #icon1
+{
+	flex:1;
+	width: 25px;
+	height: 35px;
+	border: 1px solid white;
+	border-radius:50%
+}
+
+#icon2
+{
+	flex:1;
+	width: 25px;
+	height: 35px;
+	border: 1px solid white;
+	border-radius:50%
+}
+
+.textbox-signUp input
+{
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 16px;
+	width: 80%;
+	margin: 10px;
+	color: white;
+
+}
+ 
+ 
+ .signUpBttn
+ {
+	
+	
+	border: none;
+	border-radius:10%;
+	background:none;
+	border: 1.5px solid #008CBA;
+	margin-left: 40%;
+	text-align: center;
+	font-family:'Aclonica';
+	font-size: 16px;
+	padding: 8px 0;
+	color: white;
+	cursor: pointer;
+	width: 30%;
+	
+}
+ 
+ 
+ .login-box .fb
+ {
+	 width:80px;
+	 height:40px;
+	 border-radius: 5px;
+ }
+ 
+ .extraLogIn
+ {
+	 display: inline-block;
+	 padding-left: 50px;
+	 width:80%;
+	 margin: auto;
+ }
+ 
+ .loading
+ {
+	 width:80px;
+	 height:60px;
+	 background:note;
+	 opacity: 0;
+ }
+ 
+ .greet
+ {
+	 
+	 font-size: 35px;
+	 text-align: center;
+	 margin: auto;
+	 margin-left: 30%;
+	 margin-right: 30%;
+	 margin-top: 25%;
+	 color: white;
+}
+
+.theTime
+ {
+	 
+	 font-size: 35px;
+	 text-align: center;
+	 margin: auto;
+	 margin-left: 30%;
+	 margin-right: 30%;
+	 margin-top: 25%;
+	 color: white;
+}
+
+
+.sign
+ {
+	
+	
+	padding-top: 10px;
+	padding-right: 50px;
+	border: none;
+	border: none;
+	background:none;
+	text-align: center;
+	font-family:'Aclonica';
+	font-size: 16px;
+	padding: 8px 0;
+	color: blue;
+	cursor: pointer;
+	width: 100%;
+	
+}
+
+.signUp
+ {
+	
+	
+	padding-top: 10px;
+	padding-right: 50px;
+	border: none;
+	border: none;
+	background:none;
+	text-align: center;
+	font-family:'Aclonica';
+	font-size: 16px;
+	padding: 8px 0;
+	color: blue;
+	cursor: pointer;
+	width: 100%;
+	
+}
+
+
+ 
+/* This is the CSS settings for the Home page */
+
+ .home
+ {
+	background-image: url('../images/design.png');
+	background-size: cover;
+	font-family: 'Aclonica';
+	color: white;
+	width: 80%;
+	overflow:hiden;
+	
+ }
+ 
+ .logo
+ {
+	 top:0;
+	 left: 5%;
+	 position:fixed;
+	 width: 20%;
+	 height:25%;
+	 
+}
+ 
+ .logo img
+ {
+	 width: 100%;
+	 height:100%;
+	 
+ }
+ 
+  .signOut
+ {
+	
+	float: right;
+	padding-top: 10px;
+	padding-right: 50px;
+	border: none;
+	position: relative;
+	
+	
+}
+ 
+.signOut .signIcon
+{
+	
+	border: none;
+	background:none;
+	
+	
+}
+ 
+ .signOut .signIcon img
+{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background:gray;
+	box-shadow: 5px 10px #888888;
+} 
+
+
+.extras
+{
+	width:80px;
+	height: 30px;
+	background: none;
+	float:right;
+	padding-bottom: 10px;
+	padding: 5px;
+	color: white;
+    padding: 16px;
+    border: none;
+	
+}
+
+
+
+.extras #itemsNumber
+{
+	text-align: right;
+	color: white;
+}
+
+.extras a
+{
+	text-decoration: none;
+	
+} 
+
+.extras img 
+{
+	width:60px;
+	height: 30px;
+	background: none;
+} 
+
+.extrasBtn
+{
+	background: none;
+	color: white;
+    border: none;
+	
+	
+}
+
+ .mainMenu
+{
+	text-align: center;
+	position: relative;
+	left:30%;
+	display: flex;
+	align-items: center;
+	
+	
+	
+}
+
+
+ .mainMenu .homeTab
+ {
+    background: none;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+	text-decoration: none;
+	font-family: 'Aclonica';
+}
+
+.mainMenu .homeTab:hover
+ {
+	background: none;
+	border: 2px solid #2196F3;
+	color: #2196F3; 
+}
+ 
+.dropbtn {
+	
+    background: none;
+	color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+	font-family: 'Aclonica';
+	flex: 1;
+	
+}
+
+.dropdown {
+	
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: none;
+	background-color: #D3D3D3;
+	min-width: 85px;
+	
+   
+}
+
+.dropdown img
+{
+	width: 60px;
+	height: 40px;
+	background: none;
+	
+}
+
+.dropdown .dropdown-content a img
+{
+	width: 60px;
+	height: 40px;
+	background: none;
+	
+}
+
+.dropdown-content a {
+	background: none;
+    color: navy;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	height: 80px;
+	width: 100px;
+}
+
+#slideImg
+{
+	display: absolute;
+	position: fixed;
+	left: 40%;
+	z-index: -1000;
+	width: 35%;
+}
+
+ #slide
+{
+	width: 60%;
+	height: 50%;
+	margin-top: 10%;
+	
+}
+
+.android
+{
+	display:none;
+}
+.dropdown .map {
+	
+    position: flexible;
+    display: inline-block;
+	float: right;
+}
+
+form
+{
+	display: inline-block;
+}
+
+.extras :hover
+{
+	border-bottom: 2px solid  #2196F3;
+	
+	
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	position:absolute;
+	}
+
+.signOut:hover .dropdown-content {display: block;}
+
+
+
+
+.dropdown:hover .dropbtn
+{
+	background: none;
+	border: 2px solid #2196F3;
+	color: #2196F3;
+}
+
+
+/* CSS settings fot the Product Description */
+
+ .items
+ {
+	background-image: url('../images/design.png');
+	background-size: cover;
+	font-family: 'Aclonica';
+ }
+
+.product
+{
+	background-color: white;
+	opacity: 0.8;
+	width: 50%;
+	height:200px;
+	left: 50%;
+	margin: auto;
+	margin-top:8%;
+	color: green;
+	padding-top:20px;
+	border: none;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between; 
+}
+
+.col1
+{
+	flex: 1;
+	flex-basis: 40%;
+	padding-left:30px;
+	box-sizing: border-box;
+	color: black;
+}
+.col2
+{
+	flex: 1;
+	flex-basis: 30%;
+	
+}
+.col3
+{
+	flex: 1;
+	flex-basis: 30%;
+	
+}
+
+.productButtons
+{
+	background-color: none;
+	opacity: 0.8;
+	width: 50%;
+	left: 50%;
+	margin: auto;
+	color: green;
+	padding-top:20px;
+	border-radius: 10px;
+	display: flex;
+	
+	
+}
+
+
+.pcol1
+{
+	
+	
+	flex-basis:30%;
+	color: white;
+	box-sizing: border-box;
+	
+	
+}
+
+.pcol1 input
+{
+	width: 30px;
+	height:30px;
+	background:none;
+	border-radius: 50%;
+	color: white;
+	text-align: center;
+	border-color: blue;
+	font-size: 1.2em;
+		
+}
+
+.pcol2
+{
+	
+	flex: 1;
+	box-sizing: border-box;
+	
+	
+}
+
+
+.pcol2 .myButtons
+{
+	margin-left:40%;
+}
+
+
+.product #slidePhone
+{
+	
+	width: 50%;
+	height:100px;
+	float: left;
+}
+
+.myColor
+{
+	
+	border: none;
+	background:none;
+	text-align: left;
+	font-family:'Aclonica';
+	font-size: 16px;
+	padding: 8px 0;
+	color: black;
+	cursor: pointer;
+	width: 50%;
+}
+
+#pricePhone
+{
+	color: #2196F3;
+	font-size: 1.0em;
+}
+
+#itemsNumber{
+	color:white;
+}
+
+.myButtons
+{
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	background-color: #2196F3;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size:16px;
+	font-family: lobster;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.greet
+{
+	background-color: #333;
+}
+.show
+{
+	color: white;
+	font-size: 50px;
+	
+}
+
+/* for the cart */
+
+.itemCart
+{
+	
+	background-color: white;
+	opacity: 0.8;
+	width: 50%;
+	height:200px;
+	left: 50%;
+	margin: auto;
+	margin-top:8%;
+	color: green;
+	padding-top:20px;
+	border: none;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.colu1
+{
+	flex: 1;
+	flex-basis: 40%;
+	padding-left:30px;
+	box-sizing: border-box;
+	color: black;
+}
+.colu2
+{
+	flex: 1;
+	flex-basis: 30%;
+	
+}
+.colu3
+{
+	flex: 1;
+	flex-basis: 30%;
+	
+}
+
+.cart h1
+{
+	text-align: center;
+	padding-top: 25px;
+}
+
+.itemCart #slidePhone
+{
+	
+	width: 50%;
+	height:100px;
+	float: left;
+}
+
+
+
+
+
+
+.samsung
+{
+	width: 100%;
+	padding-top: 10%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: auto;
+
+}
+
+.gallery {
+	
+	padding-left:40px;
+	padding-bottom: 20px;
+	width: 25%;
+	box-sizing: border-box;
+	
+	
+}
+
+.gallery a{
+	
+	
+	text-decoration: none;
+	margin:auto;
+}
+
+
+.gallery img {
+    width: 150px;
+    height: 110px;
+	
+}
+
+.gallery .desc {
+    
+   
+	color: white;
+	width: 100%;
+	font-size: 1.2em;
+	
+}
+
+.desc .price {
+    
+    
+	color: white;
+	width: 100%;
+	font-size: 1.2em;
+}
+
+.phoneBrands
+{
+	
+	margin: auto;
+	align-items: center;
+	padding-top: 20px;
+	display:flex;
+	flex-wrap: wrap;
+	
+}
+
+.brands
+{
+	width: 80%;
+	padding-top:5px;
+	margin: 0 auto 0 20%;
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.brandLogo {
+	
+	
+	width: 35%;
+	height:30%;
+	padding-left: 8%;
+	
+}
+
+.brandLogo img:hover {
+    border: none;
+	height: 30%;
+	
+	
+}
+
+.brandLogo img {
+    width: 100%;
+    height: 100%;
+	
+	
+	
+	
+}
+
+.brandLogo a  {
+    
+	font-size: 5.3em;
+	text-decoration:none;
+	color: white;
+	text-align: center;
+	
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(211,211,211,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 20%; /* Could be more or less, depending on screen size */
+  color:#009800;
+}
+
+
+.sendReq
+{
+	border: none;
+	border-radius:10%;
+	background:none;
+	border: 1.5px solid #008CBA;
+	margin-left: 40%;
+	text-align: center;
+	font-family:'Aclonica';
+	font-size: 16px;
+	padding: 8px 0;
+	color: #009800;
+	cursor: pointer;
+	width: 100%;
+}
+
+#comment
+{
+	width: 80%;
+	height: 50px;
+}
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+/* CSS settings fot the Footer */
+
+ footer
+{
+	
+	bottom: 0;
+	position: absolute;
+	background-color: black;
+	box-sizing: border-box;
+	width: 100%;
+	height: 20px;
+	margin: auto;
+	text-align: right;
+	font: 14px sans-serif;
+	padding: 60px 50px;
+	color: #E0E0E0;
+}
+ /* For Phones */
+@media only screen and (max-width:500px) {
+	
+	.home{
+			overflow-x:hidden;
+			background-image: url('../images/winter.jpg');
+			background-size: 200%;
+			background-repeat:no-repeat;
+			
+		}
+	.flexContainer
+	{
+		flex-direction: column;
+		width: 80%;
+		height:100%;
+	}
+	
+	.android
+{
+	display:block;
+}
+	.mainMenu
+	{
+	text-align: center;
+	display: flex;
+	align-items: center;
+	display: inline;
+	
+	}
+}
+
+/* For Tablets */
+@media only screen and (min-width: 501px) and (max-width: 900px) {
+	
+		.home{
+			overflow-x:hidden;
+			background-image: url('../images/background3.jpg');
+			background-size: 200%;
+			background-repeat:no-repeat;
+	
+	
+	.flexContainer
+		{
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: flex-start;
+		}
+		
+		.mainMenu
+	{
+	text-align: center;
+	display: inline;
+	align-items: center;
+	display: flex;
+	width: 50%;
+	
+	}
+}
+
+/* For Laptops */
+@media only screen and (min-width: 901px){
+		.flexContainer
+		{
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: flex-start;
+		}
+}

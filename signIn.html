@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang ="en">
+	<head>
+		<title> Sign In </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/myCss.css">
+		<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+	</head>
+	<body class="signIn" id="signIn">
+	<main class="flexContainer">
+		<a class="logo" href="index.html"><img src="images/logo1.png"></a> 	
+	
+		
+		<span id="theTime" class="greet">  </span><br>
+		<p id="msg" class="greet"></p><br>
+		
+	
+	
+		<div class="login-box" id="loginBox">
+			<h1> Login </h1><br><br>
+			
+			<br><br>
+			<div class="extraLogIn"> <p>Login With:</p><br>
+			<span id="errorLogin"></span><br><br>
+				<a href="https://www.facebook.com/"> <img class="fb" src="images/fb.png"></a>
+				<a href="https://accounts.google.com/signin"> <img class="fb" src="images/google.png"></a>
+				<br><p> Or... </p>
+			</div>
+		
+			<div class="textbox">
+				<label for="userLogin" class="user"> <image src="images/user.png "> </label>
+				<input type="text" id="userLogin" name="userName" placeholder="User name" required><br>
+			</div>
+			<div class="textbox">
+				<label for="passLogin" class="user"> <image src="images/pass.png "> </label>
+				<input type="password" id="passLogin" name="passWord" placeholder="Password" required>
+			</div>
+			
+			<a href="#" class="forgotPass"> forgot my password </a><br><br>
+		
+		<input class="sign" id="sign" value="Sign In"><br>
+		<p> Don't have an account? <a href="signUp.html"> "Create one"</a></p>
+		<input class="sign" onclick="window.location='index.html'" value="Continue as a Guest"><br>
+		
+		</div>
+	</main>
+<script src="js/jquery-3.3.1.min.js"> </script>
+<script src="js/myJs.js"> </script>
+<script src="js/validations.js"> </script>
+
+	</body>
+
+</html>

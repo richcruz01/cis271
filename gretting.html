@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<title> Greeting </title>
+		<meta charset="utf-8">
+	</head>
+<body>
+	<input type="text" class="name" id="user">
+	<input type="button" value="show msg" onclick="show()"></input>
+	<p id="show">Greeting goes here! </p>
+
+	<script>
+	
+	var user = document.getElementById("user").value;
+	var imageSource = ["images/coffe.png", "images/coffe.png"]
+function show() {
+    var greeting;
+	
+	
+    var time = new Date().getHours();
+    if (time < 10) {
+        greeting = "Good morning ";
+		var img =  '<img src="images/coffee.png" width="20px" height="20px">';
+    } else if (time < 20) {
+        greeting = "Good day ";
+    } else {
+        greeting = "Good evening ";
+    }
+    document.getElementById("show").innerHTML = greeting + user +" " + img;
+}
+</script>
+</body>
+</html>

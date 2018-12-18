@@ -1,0 +1,87 @@
+ <!doctype html>
+<html lang ="en">
+	<head>
+		<title> Smartphone Description </title>
+		<meta charset="utf-8">
+		<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+		<link rel="stylesheet" href="css/myCss.css">
+		
+	</head>
+
+<body class="items">
+
+	
+	<section class="extras">
+		<p id="itemsNumber">  </p>
+		<button class="extrasBtn" title="Shopping Cart"><a href="cart.html"><img src="images/cart3.png"></a></button>
+	</section>
+			
+</div><br><br>
+	
+	
+		<a class="logo" href="index.html"><img src="images/logo1.png"></a> 
+	
+
+<main class="product">
+<div class="col1">
+	<p class="phoneName"> Samsung Galaxy Note 8 </p>
+	
+	<img id="slidePhone" src="phoneSaleGallery/note8Black.png"><br>
+	
+</div>
+
+		<div class="col2">
+	 
+			<ul>
+				<li> 64 GB</li>
+				<li> Dual Sim </li>
+				<li> 6.3 In Screen </li>
+				<li> Android OS </li>
+				<li> Factory Unlocked </li>
+				<li> 12.0 MP Camera </li>
+				<li> Extra SD Memory </li>
+				<li> Water Resistant </li>
+			</ul>
+					
+		</div>	
+		
+		<div class="col3">
+		
+			<p> Colors: </p>
+			<input type="button" id="colorBlack" class="myColor" value="Black"></input><br>
+			<input type="button" id="colorBlue" class="myColor" value="Ocean Blue"></input><br>
+			<input type="button" id="colorLavander" class="myColor" value="Lavander"></input><br><br>
+			<p> Capacity: </p>
+			<select id="capacity"> 
+			  
+			  <option value="64">64 GB</option>
+			  <option value="128">128 GB</option>
+			  
+			</select>		
+		</div>
+</main>	<br>
+<main class="productButtons">		
+		<div class="pcol1">
+			<p> Quantity </p><br>
+			<input type='button' value='-' id="minus" field='quantity' />
+			<input type='text' name='quantity' id="qtt" value='0' class='qty' />
+			<input type='button' value='+' id="plus" field='quantity' />
+			
+			
+		</div>	
+		<br>
+		<span id="pricePhone"> Unit Price: $750.00 </span>
+
+		<div class="pcol2">
+		  <input type="button" class="myButtons" onclick="window.location='samsungSalesGallery.html'"value="Continue Shopping"></input><br><br>
+		  <input type="button" id="add" class="myButtons" value="Add to Cart"></input>
+		</div>
+
+</main>
+
+<script src="js/jquery-3.3.1.min.js"> </script>
+<script src="js/myJs.js"> </script>
+<script src="js/cart.js"> </script>
+
+</body>
+</html>
